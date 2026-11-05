@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Mode fosc i simulador de notes per a Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Tema fosc real per a Blackboard Learn (Original i Ultra) i calculadora local de notes. Sense afiliació amb Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Activa el mode fosc en aquest lloc"
+  },
+  "notEnabled": {
+    "message": "No activat — fes clic per tornar-ho a provar"
+  },
+  "masterToggle": {
+    "message": "Mode fosc"
+  },
+  "themeModeCurated": {
+    "message": "Tema curat"
+  },
+  "themeModeInvert": {
+    "message": "Inversió intel·ligent"
+  },
+  "openGradesPanel": {
+    "message": "Obre el panell de notes"
+  },
+  "currentGrade": {
+    "message": "Nota actual"
+  },
+  "whatIfCta": {
+    "message": "Què necessito a l'examen final?"
+  },
+  "upgradeCta": {
+    "message": "Millora a"
+  },
+  "disclaimer": {
+    "message": "Sense afiliació, aval ni patrocini de Blackboard Inc. o Anthology Inc."
+  }
+}

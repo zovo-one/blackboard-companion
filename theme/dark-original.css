@@ -1,0 +1,177 @@
+/* theme/dark-original.css — curated dark theme for Blackboard Learn ORIGINAL (legacy).
+ * Injected via chrome.runtime.getURL('theme/dark-original.css') and scoped entirely
+ * under html[data-black4245-bb] so it only ever styles a page the student enabled.
+ *
+ * Strategy: a calm, hand-tuned palette applied as targeted overrides — recolor the
+ * many white panels/tables the legacy DOM ships, lift text to a soft off-white,
+ * route links + primary actions through the user's accent, and never touch media.
+ * Everything is !important because Blackboard's own inline/late CSS is aggressive.
+ * --black4245-bb-accent is set on <html> by theme/apply.ts. */
+
+html[data-black4245-bb] {
+  --zbb-bg: #14161c;
+  --zbb-surface: #1b1e26;
+  --zbb-surface-2: #222633;
+  --zbb-text: #d7dbe4;
+  --zbb-text-dim: #99a1b0;
+  --zbb-border: #2b3140;
+  --zbb-accent: var(--black4245-bb-accent, #5a4bd1);
+  color-scheme: dark;
+  background: var(--zbb-bg) !important;
+}
+
+html[data-black4245-bb] body {
+  background: var(--zbb-bg) !important;
+  color: var(--zbb-text) !important;
+}
+
+/* Broad recolor: any element painting a light background gets a dark surface.
+ * Kept to background/color/border so layout/geometry is never disturbed. */
+html[data-black4245-bb] div,
+html[data-black4245-bb] section,
+html[data-black4245-bb] header,
+html[data-black4245-bb] footer,
+html[data-black4245-bb] nav,
+html[data-black4245-bb] aside,
+html[data-black4245-bb] ul,
+html[data-black4245-bb] ol,
+html[data-black4245-bb] li,
+html[data-black4245-bb] p,
+html[data-black4245-bb] span,
+html[data-black4245-bb] td,
+html[data-black4245-bb] th,
+html[data-black4245-bb] dl,
+html[data-black4245-bb] dt,
+html[data-black4245-bb] dd,
+html[data-black4245-bb] h1,
+html[data-black4245-bb] h2,
+html[data-black4245-bb] h3,
+html[data-black4245-bb] h4,
+html[data-black4245-bb] h5,
+html[data-black4245-bb] label {
+  background-color: transparent !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+
+/* Structural containers that legacy Blackboard paints solid white. */
+html[data-black4245-bb] #globalNavPageContentArea,
+html[data-black4245-bb] #contentPanel,
+html[data-black4245-bb] #containerdiv,
+html[data-black4245-bb] #content,
+html[data-black4245-bb] .contentBox,
+html[data-black4245-bb] .container,
+html[data-black4245-bb] .portalPage,
+html[data-black4245-bb] .courseMenu,
+html[data-black4245-bb] #courseMenuPalette_contents,
+html[data-black4245-bb] #navigationPane,
+html[data-black4245-bb] .tabWrapper,
+html[data-black4245-bb] .edit_controls,
+html[data-black4245-bb] .item,
+html[data-black4245-bb] .listElement,
+html[data-black4245-bb] .vtbegenerated,
+html[data-black4245-bb] .module,
+html[data-black4245-bb] .portlet {
+  background-color: var(--zbb-surface) !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+
+/* Top nav / page title bars. */
+html[data-black4245-bb] #globalNavPageNavArea,
+html[data-black4245-bb] #pageTitleBar,
+html[data-black4245-bb] .pageTitleBar,
+html[data-black4245-bb] #breadcrumbs,
+html[data-black4245-bb] .breadcrumbBar,
+html[data-black4245-bb] .navbar {
+  background-color: #10121a !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+
+/* Tables (grade tables, data tables) — dark with subtle zebra striping. */
+html[data-black4245-bb] table,
+html[data-black4245-bb] .dataTable,
+html[data-black4245-bb] #grades_wrapper {
+  background-color: var(--zbb-surface) !important;
+  border-color: var(--zbb-border) !important;
+}
+html[data-black4245-bb] thead th,
+html[data-black4245-bb] .dataTable thead th,
+html[data-black4245-bb] .listContainer th {
+  background-color: var(--zbb-surface-2) !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+html[data-black4245-bb] tbody tr:nth-child(even) td {
+  background-color: color-mix(in srgb, var(--zbb-surface-2) 55%, transparent) !important;
+}
+html[data-black4245-bb] tbody tr:hover td {
+  background-color: color-mix(in srgb, var(--zbb-accent) 16%, transparent) !important;
+}
+
+/* Links + accents. */
+html[data-black4245-bb] a,
+html[data-black4245-bb] a:visited {
+  color: color-mix(in srgb, var(--zbb-accent) 78%, #ffffff) !important;
+}
+html[data-black4245-bb] a:hover {
+  color: #ffffff !important;
+}
+
+/* Inputs / selects / textareas. */
+html[data-black4245-bb] input:not([type='checkbox']):not([type='radio']),
+html[data-black4245-bb] select,
+html[data-black4245-bb] textarea {
+  background-color: var(--zbb-surface-2) !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+html[data-black4245-bb] input::placeholder,
+html[data-black4245-bb] textarea::placeholder {
+  color: var(--zbb-text-dim) !important;
+}
+
+/* Buttons — route the primary action through the accent. */
+html[data-black4245-bb] button,
+html[data-black4245-bb] .button,
+html[data-black4245-bb] input[type='button'],
+html[data-black4245-bb] input[type='submit'] {
+  background-color: var(--zbb-surface-2) !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+html[data-black4245-bb] .submit,
+html[data-black4245-bb] button.primary,
+html[data-black4245-bb] input[type='submit'] {
+  background-color: var(--zbb-accent) !important;
+  color: #ffffff !important;
+  border-color: var(--zbb-accent) !important;
+}
+
+/* Never recolor media / iframes; keep the extension's own panel host untouched. */
+html[data-black4245-bb] img,
+html[data-black4245-bb] video,
+html[data-black4245-bb] canvas,
+html[data-black4245-bb] iframe {
+  background-color: transparent !important;
+}
+html[data-black4245-bb] #black4245-bb-panel-host,
+html[data-black4245-bb] #black4245-bb-panel-host * {
+  background-color: initial !important;
+  color: initial !important;
+  border-color: initial !important;
+}
+
+/* ---- due-date urgency tints (added by dates/highlight.ts) ---- */
+html[data-black4245-bb] .black4245-bb-due-overdue {
+  box-shadow: inset 3px 0 0 #f87171 !important;
+  background-color: color-mix(in srgb, #f87171 12%, transparent) !important;
+}
+html[data-black4245-bb] .black4245-bb-due-soon {
+  box-shadow: inset 3px 0 0 #fbbf24 !important;
+  background-color: color-mix(in srgb, #fbbf24 12%, transparent) !important;
+}
+html[data-black4245-bb] .black4245-bb-due-upcoming {
+  box-shadow: inset 3px 0 0 var(--zbb-accent) !important;
+}

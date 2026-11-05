@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Hali ya Giza na Grade What-If kwa Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Mandhari halisi ya giza ya Blackboard Learn (Original na Ultra) pamoja na kikokotoo cha grade what-if. Haihusiani na Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Washa hali ya giza kwenye tovuti hii"
+  },
+  "notEnabled": {
+    "message": "Haijawashwa — bofya ili ujaribu tena"
+  },
+  "masterToggle": {
+    "message": "Hali ya giza"
+  },
+  "themeModeCurated": {
+    "message": "Mandhari iliyoteuliwa"
+  },
+  "themeModeInvert": {
+    "message": "Ugeuzaji mahiri"
+  },
+  "openGradesPanel": {
+    "message": "Fungua paneli ya alama"
+  },
+  "currentGrade": {
+    "message": "Alama ya sasa"
+  },
+  "whatIfCta": {
+    "message": "Nahitaji nini katika mtihani wa mwisho?"
+  },
+  "upgradeCta": {
+    "message": "Pandisha kiwango kwenye"
+  },
+  "disclaimer": {
+    "message": "Haihusiani, haijaidhinishwa wala kufadhiliwa na Blackboard Inc. au Anthology Inc."
+  }
+}

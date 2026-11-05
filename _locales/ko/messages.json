@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn용 다크 모드 및 성적 시뮬레이터",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn(Original·Ultra)용 진짜 다크 테마와 로컬 성적 시뮬레이터. Blackboard와는 무관합니다.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "이 사이트에서 다크 모드 사용"
+  },
+  "notEnabled": {
+    "message": "사용 안 함 — 클릭하여 다시 시도"
+  },
+  "masterToggle": {
+    "message": "다크 모드"
+  },
+  "themeModeCurated": {
+    "message": "큐레이트 테마"
+  },
+  "themeModeInvert": {
+    "message": "스마트 반전"
+  },
+  "openGradesPanel": {
+    "message": "성적 패널 열기"
+  },
+  "currentGrade": {
+    "message": "현재 성적"
+  },
+  "whatIfCta": {
+    "message": "기말에서 몇 점 필요할까요?"
+  },
+  "upgradeCta": {
+    "message": "에서 업그레이드"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. 또는 Anthology Inc.와 제휴, 보증 또는 후원 관계가 없습니다."
+  }
+}

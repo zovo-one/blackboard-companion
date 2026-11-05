@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn 用ダークモード＆成績シミュレーター",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn（Original・Ultra）の本格ダークテーマとローカル成績シミュレーター。Blackboard とは無関係です。",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "このサイトでダークモードを有効にする"
+  },
+  "notEnabled": {
+    "message": "無効です — クリックして再試行"
+  },
+  "masterToggle": {
+    "message": "ダークモード"
+  },
+  "themeModeCurated": {
+    "message": "厳選テーマ"
+  },
+  "themeModeInvert": {
+    "message": "スマート反転"
+  },
+  "openGradesPanel": {
+    "message": "成績パネルを開く"
+  },
+  "currentGrade": {
+    "message": "現在の成績"
+  },
+  "whatIfCta": {
+    "message": "期末で何点必要？"
+  },
+  "upgradeCta": {
+    "message": "でアップグレード"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. および Anthology Inc. とは提携・承認・後援関係はありません。"
+  }
+}

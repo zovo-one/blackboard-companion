@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn-க்கான டார்க் மோடு மற்றும் கிரேடு வாட்-இஃப்",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn (Original, Ultra)-க்கான டார்க் தீம் மற்றும் லோக்கல் கிரேடு வாட்-இஃப் கணிப்பான். Blackboard உடன் தொடர்பில்லை.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "இந்த தளத்தில் டார்க் மோடை இயக்கு"
+  },
+  "notEnabled": {
+    "message": "இயக்கப்படவில்லை — மீண்டும் முயற்சிக்க கிளிக் செய்யவும்"
+  },
+  "masterToggle": {
+    "message": "டார்க் மோடு"
+  },
+  "themeModeCurated": {
+    "message": "தேர்ந்தெடுத்த தீம்"
+  },
+  "themeModeInvert": {
+    "message": "ஸ்மார்ட் இன்வர்ட்"
+  },
+  "openGradesPanel": {
+    "message": "கிரேடு பேனலைத் திற"
+  },
+  "currentGrade": {
+    "message": "தற்போதைய கிரேடு"
+  },
+  "whatIfCta": {
+    "message": "இறுதித் தேர்வில் எனக்கு எவ்வளவு தேவை?"
+  },
+  "upgradeCta": {
+    "message": "இல் மேம்படுத்து"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. அல்லது Anthology Inc. உடன் தொடர்பு, ஒப்புதல் அல்லது ஸ்பான்சர்ஷிப் இல்லை."
+  }
+}

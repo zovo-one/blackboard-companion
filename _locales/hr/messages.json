@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Tamna tema i kalkulator ocjena „što ako“ za Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Prava tamna tema za Blackboard Learn (Original i Ultra) uz lokalni kalkulator ocjena. Nije povezano s Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Omogući tamni način na ovoj stranici"
+  },
+  "notEnabled": {
+    "message": "Nije omogućeno — kliknite za ponovni pokušaj"
+  },
+  "masterToggle": {
+    "message": "Tamni način"
+  },
+  "themeModeCurated": {
+    "message": "Odabrana tema"
+  },
+  "themeModeInvert": {
+    "message": "Pametna inverzija"
+  },
+  "openGradesPanel": {
+    "message": "Otvori ploču s ocjenama"
+  },
+  "currentGrade": {
+    "message": "Trenutačna ocjena"
+  },
+  "whatIfCta": {
+    "message": "Što mi treba na završnom ispitu?"
+  },
+  "upgradeCta": {
+    "message": "Nadogradi na"
+  },
+  "disclaimer": {
+    "message": "Nije povezano, odobreno ni sponzorirano od Blackboard Inc. ili Anthology Inc."
+  }
+}

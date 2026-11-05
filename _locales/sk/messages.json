@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Tmavý motív a kalkulačka známok „čo ak“ pre Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Skutočný tmavý motív pre Blackboard Learn (Original a Ultra) a lokálna kalkulačka známok. Nie je spojené s Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Zapnúť tmavý režim na tejto stránke"
+  },
+  "notEnabled": {
+    "message": "Nezapnuté — kliknutím to skúste znova"
+  },
+  "masterToggle": {
+    "message": "Tmavý režim"
+  },
+  "themeModeCurated": {
+    "message": "Kurátorská téma"
+  },
+  "themeModeInvert": {
+    "message": "Inteligentná inverzia"
+  },
+  "openGradesPanel": {
+    "message": "Otvoriť panel známok"
+  },
+  "currentGrade": {
+    "message": "Aktuálna známka"
+  },
+  "whatIfCta": {
+    "message": "Čo potrebujem na záverečnej skúške?"
+  },
+  "upgradeCta": {
+    "message": "Inovujte na"
+  },
+  "disclaimer": {
+    "message": "Nie je spojené, schválené ani sponzorované spoločnosťou Blackboard Inc. alebo Anthology Inc."
+  }
+}

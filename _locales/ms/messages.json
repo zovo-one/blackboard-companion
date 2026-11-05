@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Mod Gelap & Pengira Gred Andaian untuk Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Tema gelap sebenar untuk Blackboard Learn (Original & Ultra) serta pengira gred andaian setempat. Tidak bergabung dengan Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Dayakan mod gelap di tapak ini"
+  },
+  "notEnabled": {
+    "message": "Tidak didayakan — klik untuk cuba lagi"
+  },
+  "masterToggle": {
+    "message": "Mod gelap"
+  },
+  "themeModeCurated": {
+    "message": "Tema pilihan"
+  },
+  "themeModeInvert": {
+    "message": "Songsang pintar"
+  },
+  "openGradesPanel": {
+    "message": "Buka panel gred"
+  },
+  "currentGrade": {
+    "message": "Gred semasa"
+  },
+  "whatIfCta": {
+    "message": "Berapa yang saya perlukan dalam peperiksaan akhir?"
+  },
+  "upgradeCta": {
+    "message": "Naik taraf di"
+  },
+  "disclaimer": {
+    "message": "Tidak bergabung, disokong atau ditaja oleh Blackboard Inc. atau Anthology Inc."
+  }
+}

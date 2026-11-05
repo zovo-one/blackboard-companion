@@ -1,0 +1,82 @@
+/*  conversion sidebar — the options-page ROI rail (MONETIZE-STANDARD §5).
+ * Token-driven off black4245-base.css. NOTE: this design system's purple is
+ * --black4245-primary (#6C5CE7); --black4245-accent is teal — so the Pro panel binds to
+ * --black4245-primary, gold stays on the .black4245-btn--pro CTA only. Light + dark handled
+ * by the tokens; fallbacks are only for a token-less context. */
+.black4245-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--black4245-space-4, 16px);
+  width: 260px;
+  flex: none;
+}
+.zs-card {
+  background: var(--black4245-bg, #fff);
+  border: 1px solid var(--black4245-border, #e5e7eb);
+  border-radius: var(--black4245-radius-card, 12px);
+  padding: var(--black4245-space-5, 20px);
+}
+.zs-card--pro {
+  background: linear-gradient(160deg, var(--black4245-primary, #6C5CE7) 0%, var(--black4245-primary-dark, #5A4BD1) 100%);
+  border: none;
+  color: #fff;
+  box-shadow: var(--black4245-shadow, 0 10px 30px -12px rgba(23, 16, 60, 0.34));
+}
+.zs-card--pro .zs-sub { color: rgba(255, 255, 255, 0.82); }
+.zs-eyebrow {
+  font-size: var(--black4245-fs-caption, 12px);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: var(--black4245-fw-heading, 700);
+  opacity: 0.85;
+  margin-bottom: var(--black4245-space-2, 8px);
+}
+.zs-h {
+  font-size: var(--black4245-fs-subheading, 16px);
+  font-weight: var(--black4245-fw-heading, 700);
+  letter-spacing: -0.01em;
+  margin: 0 0 var(--black4245-space-3, 12px);
+  line-height: 1.25;
+}
+.zs-stack {
+  list-style: none;
+  margin: 0 0 var(--black4245-space-4, 16px);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--black4245-space-2, 8px);
+  font-size: 13px;
+  line-height: 1.4;
+}
+.zs-stack li { padding-left: 22px; position: relative; }
+.zs-stack li::before { content: "✓"; position: absolute; left: 0; font-weight: 800; }
+.zs-sub { font-size: 11.5px; margin: var(--black4245-space-2, 8px) 0 0; text-align: center; opacity: 0.9; }
+.zs-x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--black4245-space-2, 8px);
+  padding: 10px 2px;
+  text-decoration: none;
+  color: var(--black4245-text, #1a1a2e);
+  font-size: 13px;
+  font-weight: var(--black4245-fw-medium, 500);
+}
+.zs-x:hover .zs-x__nm { color: var(--black4245-primary, #6C5CE7); }
+.zs-x__go { color: var(--black4245-text-secondary, #6b7280); }
+.zs-foot {
+  display: flex;
+  gap: var(--black4245-space-4, 16px);
+  justify-content: center;
+  font-size: 11.5px;
+  padding-top: var(--black4245-space-1, 4px);
+}
+.zs-foot a { color: var(--black4245-text-secondary, #6b7280); text-decoration: none; }
+.zs-foot a:hover { color: var(--black4245-primary, #6C5CE7); }
+.zs-card--pro .black4245-btn--pro:focus-visible,
+.zs-x:focus-visible,
+.zs-foot a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--black4245-bg, #fff), 0 0 0 4px var(--black4245-primary, #6C5CE7);
+  border-radius: 6px;
+}

@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Mod întunecat și simulator de note pentru Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Temă întunecată reală pentru Blackboard Learn (Original și Ultra) și calculator local de note. Fără afiliere cu Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Activează modul întunecat pe acest site"
+  },
+  "notEnabled": {
+    "message": "Neactivat — dă clic pentru a reîncerca"
+  },
+  "masterToggle": {
+    "message": "Mod întunecat"
+  },
+  "themeModeCurated": {
+    "message": "Temă selectată"
+  },
+  "themeModeInvert": {
+    "message": "Inversare inteligentă"
+  },
+  "openGradesPanel": {
+    "message": "Deschide panoul de note"
+  },
+  "currentGrade": {
+    "message": "Nota actuală"
+  },
+  "whatIfCta": {
+    "message": "De ce am nevoie la examenul final?"
+  },
+  "upgradeCta": {
+    "message": "Fă upgrade pe"
+  },
+  "disclaimer": {
+    "message": "Fără afiliere, aprobare sau sponsorizare din partea Blackboard Inc. sau Anthology Inc."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Тъмна тема и калкулатор за оценки «какво ако» за Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Истинска тъмна тема за Blackboard Learn (Original и Ultra) плюс локален калкулатор за оценки. Не е свързано с Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Активиране на тъмния режим на този сайт"
+  },
+  "notEnabled": {
+    "message": "Не е активирано — щракнете, за да опитате пак"
+  },
+  "masterToggle": {
+    "message": "Тъмен режим"
+  },
+  "themeModeCurated": {
+    "message": "Подбрана тема"
+  },
+  "themeModeInvert": {
+    "message": "Интелигентна инверсия"
+  },
+  "openGradesPanel": {
+    "message": "Отваряне на панела с оценки"
+  },
+  "currentGrade": {
+    "message": "Текуща оценка"
+  },
+  "whatIfCta": {
+    "message": "Колко ми трябва на финалния изпит?"
+  },
+  "upgradeCta": {
+    "message": "Надстройте на"
+  },
+  "disclaimer": {
+    "message": "Не е свързано, одобрено или спонсорирано от Blackboard Inc. или Anthology Inc."
+  }
+}

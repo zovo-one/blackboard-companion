@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Tryb ciemny i kalkulator ocen „co jeśli” dla Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Prawdziwy tryb ciemny dla Blackboard Learn (Original i Ultra) oraz lokalny kalkulator ocen. Niepowiązane z Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Włącz tryb ciemny na tej stronie"
+  },
+  "notEnabled": {
+    "message": "Nie włączono — kliknij, aby spróbować ponownie"
+  },
+  "masterToggle": {
+    "message": "Tryb ciemny"
+  },
+  "themeModeCurated": {
+    "message": "Wyselekcjonowany motyw"
+  },
+  "themeModeInvert": {
+    "message": "Inteligentna inwersja"
+  },
+  "openGradesPanel": {
+    "message": "Otwórz panel ocen"
+  },
+  "currentGrade": {
+    "message": "Aktualna ocena"
+  },
+  "whatIfCta": {
+    "message": "Ile potrzebuję na egzaminie końcowym?"
+  },
+  "upgradeCta": {
+    "message": "Ulepsz na"
+  },
+  "disclaimer": {
+    "message": "Niepowiązane, niezatwierdzone ani niesponsorowane przez Blackboard Inc. lub Anthology Inc."
+  }
+}

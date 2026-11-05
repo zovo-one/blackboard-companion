@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "الوضع الداكن وحاسبة \"ماذا لو\" للدرجات في Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "سمة داكنة حقيقية لـ Blackboard Learn (Original و Ultra) مع حاسبة درجات \"ماذا لو\" محلية. غير تابع لـ Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "تفعيل الوضع الداكن على هذا الموقع"
+  },
+  "notEnabled": {
+    "message": "غير مُفعّل — انقر لإعادة المحاولة"
+  },
+  "masterToggle": {
+    "message": "الوضع الداكن"
+  },
+  "themeModeCurated": {
+    "message": "سمة منسّقة"
+  },
+  "themeModeInvert": {
+    "message": "عكس ذكي"
+  },
+  "openGradesPanel": {
+    "message": "فتح لوحة الدرجات"
+  },
+  "currentGrade": {
+    "message": "الدرجة الحالية"
+  },
+  "whatIfCta": {
+    "message": "كم أحتاج في الاختبار النهائي؟"
+  },
+  "upgradeCta": {
+    "message": "الترقية على"
+  },
+  "disclaimer": {
+    "message": "غير تابع لـ Blackboard Inc. أو Anthology Inc. وغير مُعتمد أو مدعوم منهما."
+  }
+}

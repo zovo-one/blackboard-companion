@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Modo escuro e simulador de notas para Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Tema escuro real para Blackboard Learn (Original e Ultra) e calculadora local de notas. Sem afiliação com a Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Ativar modo escuro neste site"
+  },
+  "notEnabled": {
+    "message": "Não ativado — clique para tentar de novo"
+  },
+  "masterToggle": {
+    "message": "Modo escuro"
+  },
+  "themeModeCurated": {
+    "message": "Tema curado"
+  },
+  "themeModeInvert": {
+    "message": "Inversão inteligente"
+  },
+  "openGradesPanel": {
+    "message": "Abrir painel de notas"
+  },
+  "currentGrade": {
+    "message": "Nota atual"
+  },
+  "whatIfCta": {
+    "message": "Do que preciso na prova final?"
+  },
+  "upgradeCta": {
+    "message": "Faça upgrade em"
+  },
+  "disclaimer": {
+    "message": "Sem afiliação, endosso ou patrocínio da Blackboard Inc. ou da Anthology Inc."
+  }
+}

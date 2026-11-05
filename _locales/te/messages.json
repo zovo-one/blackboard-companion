@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn కోసం డార్క్ మోడ్ మరియు గ్రేడ్ వాట్-ఇఫ్",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn (Original & Ultra) కోసం నిజమైన డార్క్ థీమ్ మరియు లోకల్ గ్రేడ్ వాట్-ఇఫ్ కాలిక్యులేటర్. Blackboard తో సంబంధం లేదు.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "ఈ సైట్‌లో డార్క్ మోడ్‌ను ప్రారంభించండి"
+  },
+  "notEnabled": {
+    "message": "ప్రారంభించలేదు — మళ్లీ ప్రయత్నించడానికి క్లిక్ చేయండి"
+  },
+  "masterToggle": {
+    "message": "డార్క్ మోడ్"
+  },
+  "themeModeCurated": {
+    "message": "ఎంపిక చేసిన థీమ్"
+  },
+  "themeModeInvert": {
+    "message": "స్మార్ట్ ఇన్వర్ట్"
+  },
+  "openGradesPanel": {
+    "message": "గ్రేడ్ ప్యానెల్ తెరవండి"
+  },
+  "currentGrade": {
+    "message": "ప్రస్తుత గ్రేడ్"
+  },
+  "whatIfCta": {
+    "message": "ఫైనల్‌లో నాకు ఎంత అవసరం?"
+  },
+  "upgradeCta": {
+    "message": "లో అప్‌గ్రేడ్ చేయండి"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. లేదా Anthology Inc.తో అనుబంధం, ఆమోదం లేదా స్పాన్సర్‌షిప్ లేదు."
+  }
+}

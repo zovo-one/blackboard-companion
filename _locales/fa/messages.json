@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "حالت تیره و ماشین‌حساب «چه می‌شد اگر» نمرات برای Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "پوستهٔ تیرهٔ واقعی برای Blackboard Learn (Original و Ultra) و ماشین‌حساب محلی «چه می‌شد اگر» نمرات. وابسته به Blackboard نیست.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "فعال‌سازی حالت تیره در این سایت"
+  },
+  "notEnabled": {
+    "message": "فعال نیست — برای تلاش دوباره کلیک کنید"
+  },
+  "masterToggle": {
+    "message": "حالت تیره"
+  },
+  "themeModeCurated": {
+    "message": "پوستهٔ منتخب"
+  },
+  "themeModeInvert": {
+    "message": "وارونگی هوشمند"
+  },
+  "openGradesPanel": {
+    "message": "باز کردن پنل نمرات"
+  },
+  "currentGrade": {
+    "message": "نمرهٔ فعلی"
+  },
+  "whatIfCta": {
+    "message": "در امتحان پایانی چه نمره‌ای لازم دارم؟"
+  },
+  "upgradeCta": {
+    "message": "ارتقا در"
+  },
+  "disclaimer": {
+    "message": "وابسته، تأییدشده یا حمایت‌شده توسط Blackboard Inc. یا Anthology Inc. نیست."
+  }
+}

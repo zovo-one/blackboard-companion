@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Mode Gelap & Kalkulator Nilai Andai untuk Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Tema gelap asli untuk Blackboard Learn (Original & Ultra) plus kalkulator nilai andai lokal. Tidak berafiliasi dengan Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Aktifkan mode gelap di situs ini"
+  },
+  "notEnabled": {
+    "message": "Tidak aktif — klik untuk coba lagi"
+  },
+  "masterToggle": {
+    "message": "Mode gelap"
+  },
+  "themeModeCurated": {
+    "message": "Tema pilihan"
+  },
+  "themeModeInvert": {
+    "message": "Inversi cerdas"
+  },
+  "openGradesPanel": {
+    "message": "Buka panel nilai"
+  },
+  "currentGrade": {
+    "message": "Nilai saat ini"
+  },
+  "whatIfCta": {
+    "message": "Berapa nilai yang saya butuhkan di ujian akhir?"
+  },
+  "upgradeCta": {
+    "message": "Tingkatkan di"
+  },
+  "disclaimer": {
+    "message": "Tidak berafiliasi, didukung, atau disponsori oleh Blackboard Inc. atau Anthology Inc."
+  }
+}

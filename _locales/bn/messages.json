@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn-এর জন্য ডার্ক মোড ও গ্রেড হোয়াট-ইফ",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn (Original ও Ultra)-এর জন্য প্রকৃত ডার্ক থিম ও লোকাল গ্রেড হোয়াট-ইফ ক্যালকুলেটর। Blackboard-এর সাথে সম্পর্কিত নয়।",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "এই সাইটে ডার্ক মোড সক্রিয় করুন"
+  },
+  "notEnabled": {
+    "message": "সক্রিয় নয় — আবার চেষ্টা করতে ক্লিক করুন"
+  },
+  "masterToggle": {
+    "message": "ডার্ক মোড"
+  },
+  "themeModeCurated": {
+    "message": "নির্বাচিত থিম"
+  },
+  "themeModeInvert": {
+    "message": "স্মার্ট ইনভার্ট"
+  },
+  "openGradesPanel": {
+    "message": "গ্রেড প্যানেল খুলুন"
+  },
+  "currentGrade": {
+    "message": "বর্তমান গ্রেড"
+  },
+  "whatIfCta": {
+    "message": "ফাইনালে আমার কত দরকার?"
+  },
+  "upgradeCta": {
+    "message": "এ আপগ্রেড করুন"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. বা Anthology Inc.-এর সাথে সম্পর্কিত, অনুমোদিত বা পৃষ্ঠপোষকতাপ্রাপ্ত নয়।"
+  }
+}

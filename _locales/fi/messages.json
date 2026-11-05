@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Tumma tila & arvosana-entä-jos Blackboard Learniin",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Aito tumma teema Blackboard Learniin (Original & Ultra) sekä paikallinen arvosana-entä-jos-laskuri. Ei yhteydessä Blackboardiin.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Ota tumma tila käyttöön tällä sivustolla"
+  },
+  "notEnabled": {
+    "message": "Ei käytössä — yritä uudelleen napsauttamalla"
+  },
+  "masterToggle": {
+    "message": "Tumma tila"
+  },
+  "themeModeCurated": {
+    "message": "Valittu teema"
+  },
+  "themeModeInvert": {
+    "message": "Älykäs käänteisyys"
+  },
+  "openGradesPanel": {
+    "message": "Avaa arvosanapaneeli"
+  },
+  "currentGrade": {
+    "message": "Nykyinen arvosana"
+  },
+  "whatIfCta": {
+    "message": "Mitä tarvitsen loppukokeeseen?"
+  },
+  "upgradeCta": {
+    "message": "Päivitä osoitteessa"
+  },
+  "disclaimer": {
+    "message": "Ei liity Blackboard Inc.:hen tai Anthology Inc.:hen eikä ole niiden tukema tai sponsoroima."
+  }
+}

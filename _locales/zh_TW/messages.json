@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn 深色模式與成績假設計算",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "為 Blackboard Learn（Original 與 Ultra）提供真正的深色主題，並附帶本機成績假設計算機。與 Blackboard 無隸屬關係。",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "在此網站啟用深色模式"
+  },
+  "notEnabled": {
+    "message": "未啟用 — 點擊重試"
+  },
+  "masterToggle": {
+    "message": "深色模式"
+  },
+  "themeModeCurated": {
+    "message": "精選主題"
+  },
+  "themeModeInvert": {
+    "message": "智慧反色"
+  },
+  "openGradesPanel": {
+    "message": "開啟成績面板"
+  },
+  "currentGrade": {
+    "message": "目前成績"
+  },
+  "whatIfCta": {
+    "message": "期末考我需要考幾分？"
+  },
+  "upgradeCta": {
+    "message": "在 升級"
+  },
+  "disclaimer": {
+    "message": "與 Blackboard Inc. 或 Anthology Inc. 無隸屬、認可或贊助關係。"
+  }
+}

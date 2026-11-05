@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn માટે ડાર્ક મોડ અને ગ્રેડ વોટ-ઇફ",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn (Original અને Ultra) માટે અસલી ડાર્ક થીમ અને લોકલ ગ્રેડ વોટ-ઇફ કેલ્ક્યુલેટર. Blackboard સાથે સંલગ્ન નથી.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "આ સાઇટ પર ડાર્ક મોડ ચાલુ કરો"
+  },
+  "notEnabled": {
+    "message": "ચાલુ નથી — ફરી પ્રયાસ કરવા ક્લિક કરો"
+  },
+  "masterToggle": {
+    "message": "ડાર્ક મોડ"
+  },
+  "themeModeCurated": {
+    "message": "પસંદ કરેલી થીમ"
+  },
+  "themeModeInvert": {
+    "message": "સ્માર્ટ ઇન્વર્ટ"
+  },
+  "openGradesPanel": {
+    "message": "ગ્રેડ પેનલ ખોલો"
+  },
+  "currentGrade": {
+    "message": "વર્તમાન ગ્રેડ"
+  },
+  "whatIfCta": {
+    "message": "ફાઇનલમાં મને કેટલું જોઈએ?"
+  },
+  "upgradeCta": {
+    "message": "પર અપગ્રેડ કરો"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. અથવા Anthology Inc. સાથે સંલગ્ન, સમર્થિત કે પ્રાયોજિત નથી."
+  }
+}

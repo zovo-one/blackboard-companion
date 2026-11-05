@@ -1,0 +1,336 @@
+/* panel/panel.css — grades side-panel styles, injected into the CLOSED shadow root.
+ * Scoped by the shadow boundary, so class names are short (zbb-*) and can never
+ * collide with Blackboard's page CSS. Rendered by src/content/panel/panel.ts.
+ * Web-accessible; linked via chrome.runtime.getURL('panel/panel.css'). */
+
+:host {
+  all: initial;
+}
+
+.zbb-panel {
+  --acc: var(--black4245-bb-accent, #5a4bd1);
+  --bg: #14161c;
+  --surface: #1c1f27;
+  --surface-2: #232733;
+  --text: #e6e9f0;
+  --muted: #9aa2b1;
+  --border: #2c313d;
+  --ok: #34d399;
+  --warn: #fbbf24;
+  --danger: #f87171;
+
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  border-left: 1px solid var(--border);
+  box-shadow: -18px 0 48px -12px rgba(0, 0, 0, 0.55);
+  z-index: 2147483647;
+  overflow: hidden;
+}
+
+.zbb-panel * {
+  box-sizing: border-box;
+}
+
+/* ---- header ---- */
+.zbb-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  flex: 0 0 auto;
+}
+.zbb-h {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+}
+.zbb-h strong {
+  font-weight: 600;
+}
+.zbb-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--acc);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--acc) 24%, transparent);
+}
+.zbb-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: var(--acc);
+  color: #fff;
+}
+.zbb-badge--free {
+  background: var(--surface-2);
+  color: var(--muted);
+}
+.zbb-x {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 22px;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.zbb-x:hover {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+/* ---- body / cards ---- */
+.zbb-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.zbb-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px;
+}
+.zbb-card--lock[data-dismissed] {
+  opacity: 0.5;
+}
+.zbb-card-h {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+.zbb-muted {
+  color: var(--muted);
+  font-size: 12.5px;
+  margin: 6px 0 0;
+}
+.zbb-tiny {
+  font-size: 11.5px;
+  opacity: 0.85;
+}
+
+/* ---- hero number ---- */
+.zbb-hero {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 4px 0 2px;
+}
+.zbb-hero-num {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.zbb-hero-letter {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--acc);
+}
+
+/* ---- fields / inputs ---- */
+.zbb-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 10px 0 0;
+}
+.zbb-field > span {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.zbb-select,
+.zbb-input {
+  appearance: none;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+}
+.zbb-input--sm {
+  width: 64px;
+  padding: 5px 7px;
+  text-align: right;
+}
+.zbb-select:focus-visible,
+.zbb-input:focus-visible {
+  outline: 2px solid var(--acc);
+  outline-offset: 1px;
+}
+
+/* ---- buttons ---- */
+.zbb-btn {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.zbb-btn:hover {
+  border-color: var(--acc);
+}
+.zbb-btn--pro {
+  background: var(--acc);
+  border-color: var(--acc);
+  color: #fff;
+}
+.zbb-btn--pro:hover {
+  filter: brightness(1.08);
+}
+.zbb-btn--ghost {
+  background: transparent;
+}
+
+/* ---- solver result ---- */
+.zbb-result {
+  margin-top: 10px;
+  padding: 9px 11px;
+  border-radius: 8px;
+  font-size: 13px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  min-height: 0;
+}
+.zbb-result:empty {
+  display: none;
+}
+.zbb-result.is-ok {
+  border-color: color-mix(in srgb, var(--ok) 55%, var(--border));
+  color: var(--ok);
+}
+.zbb-result.is-warn {
+  border-color: color-mix(in srgb, var(--warn) 55%, var(--border));
+  color: var(--warn);
+}
+
+/* ---- sandbox table ---- */
+.zbb-table {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 10px;
+}
+.zbb-tr {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  align-items: center;
+  gap: 6px;
+}
+.zbb-td-name {
+  font-size: 12.5px;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.zbb-slash {
+  color: var(--muted);
+}
+.zbb-row-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* ---- agenda ---- */
+.zbb-agenda {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.zbb-agenda-li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  padding: 7px 9px;
+  border-radius: 8px;
+  background: var(--surface-2);
+  border-left: 3px solid var(--border);
+}
+.zbb-agenda-li.is-overdue {
+  border-left-color: var(--danger);
+}
+.zbb-agenda-li.is-due-soon {
+  border-left-color: var(--warn);
+}
+.zbb-agenda-li.is-upcoming {
+  border-left-color: var(--acc);
+}
+.zbb-agenda-when {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--muted);
+  flex: 0 0 auto;
+  min-width: 42px;
+}
+.zbb-agenda-title {
+  font-size: 12.5px;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---- lock card ---- */
+.zbb-lock-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.zbb-lock-ic {
+  font-size: 14px;
+}
+
+/* ---- footer ---- */
+.zbb-foot {
+  flex: 0 0 auto;
+  padding: 10px 16px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 11px;
+  background: var(--surface);
+}

@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Modalità scura e simulatore di voti per Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Vero tema scuro per Blackboard Learn (Original e Ultra) e calcolatore di voti locale. Senza affiliazione con Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Attiva la modalità scura su questo sito"
+  },
+  "notEnabled": {
+    "message": "Non attivata — clicca per riprovare"
+  },
+  "masterToggle": {
+    "message": "Modalità scura"
+  },
+  "themeModeCurated": {
+    "message": "Tema curato"
+  },
+  "themeModeInvert": {
+    "message": "Inversione intelligente"
+  },
+  "openGradesPanel": {
+    "message": "Apri il pannello dei voti"
+  },
+  "currentGrade": {
+    "message": "Voto attuale"
+  },
+  "whatIfCta": {
+    "message": "Cosa mi serve all'esame finale?"
+  },
+  "upgradeCta": {
+    "message": "Aggiorna su"
+  },
+  "disclaimer": {
+    "message": "Senza affiliazione, approvazione o sponsorizzazione di Blackboard Inc. o Anthology Inc."
+  }
+}

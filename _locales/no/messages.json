@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Mørk modus & karakter-hva-hvis for Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Ekte mørkt tema for Blackboard Learn (Original & Ultra) pluss en lokal karakter-hva-hvis-kalkulator. Ikke tilknyttet Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Aktiver mørk modus på dette nettstedet"
+  },
+  "notEnabled": {
+    "message": "Ikke aktivert — klikk for å prøve igjen"
+  },
+  "masterToggle": {
+    "message": "Mørk modus"
+  },
+  "themeModeCurated": {
+    "message": "Kuratert tema"
+  },
+  "themeModeInvert": {
+    "message": "Smart invertering"
+  },
+  "openGradesPanel": {
+    "message": "Åpne karakterpanel"
+  },
+  "currentGrade": {
+    "message": "Nåværende karakter"
+  },
+  "whatIfCta": {
+    "message": "Hva trenger jeg på eksamen?"
+  },
+  "upgradeCta": {
+    "message": "Oppgrader på"
+  },
+  "disclaimer": {
+    "message": "Ikke tilknyttet, godkjent eller sponset av Blackboard Inc. eller Anthology Inc."
+  }
+}

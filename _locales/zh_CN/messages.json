@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn 深色模式与成绩假设计算",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "为 Blackboard Learn（Original 与 Ultra）提供真正的深色主题，并附带本地成绩假设计算器。与 Blackboard 无隶属关系。",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "在此网站启用深色模式"
+  },
+  "notEnabled": {
+    "message": "未启用 — 点击重试"
+  },
+  "masterToggle": {
+    "message": "深色模式"
+  },
+  "themeModeCurated": {
+    "message": "精选主题"
+  },
+  "themeModeInvert": {
+    "message": "智能反色"
+  },
+  "openGradesPanel": {
+    "message": "打开成绩面板"
+  },
+  "currentGrade": {
+    "message": "当前成绩"
+  },
+  "whatIfCta": {
+    "message": "期末考我需要考多少分？"
+  },
+  "upgradeCta": {
+    "message": "在 升级"
+  },
+  "disclaimer": {
+    "message": "与 Blackboard Inc. 或 Anthology Inc. 无隶属、认可或赞助关系。"
+  }
+}

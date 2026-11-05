@@ -1,0 +1,315 @@
+/* styles/popup.css — Blackboard Companion popup layout.
+ * Consumes the canonical black4245-base.css tokens (--black4245-*). No new color literals
+ * except the accent preview default, which is overridden at runtime. 8px grid,
+ * dark mode cascades automatically, focus rings on every interactive element. */
+
+.black4245-bb {
+  width: var(--black4245-popup-w, 360px);
+  max-height: var(--black4245-popup-maxh, 560px);
+  overflow-y: auto;
+  background: var(--black4245-surface);
+  color: var(--black4245-text);
+  font-family: var(--black4245-font);
+  --black4245-bb-accent: #5a4bd1;
+}
+
+.black4245-bb__main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--black4245-space-4);
+  padding: var(--black4245-space-4) var(--black4245-space-5) var(--black4245-space-5);
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+.black4245-bb__header {
+  display: flex;
+  align-items: center;
+  gap: var(--black4245-space-3);
+}
+.black4245-bb__logo {
+  border-radius: var(--black4245-radius-input);
+  flex: none;
+}
+.black4245-bb__title {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-size: var(--black4245-fs-subheading);
+  font-weight: var(--black4245-fw-heading);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.black4245-bb__tier {
+  flex: none;
+}
+
+/* ── Hero: live theme preview ───────────────────────────────────────────── */
+/* One hero the eye lands on first (DESIGN-SYSTEM §10): a miniature Blackboard
+ * page rendered in the current theme + accent, so "what this does" reads in <1s. */
+.black4245-bb__hero {
+  display: flex;
+  justify-content: center;
+}
+.black4245-bb__preview {
+  width: 100%;
+  padding: var(--black4245-space-4);
+  border-radius: var(--black4245-radius-card);
+  border: 1px solid var(--black4245-border);
+  box-shadow: var(--black4245-shadow);
+  background: #14161c; /* the theme's dark ground — this is a product demo, not chrome */
+  transition: filter var(--black4245-transition), opacity var(--black4245-transition);
+}
+.black4245-bb--off .black4245-bb__preview {
+  /* master off → show the "before" (light) so the toggle's effect is legible */
+  background: #ffffff;
+}
+.black4245-bb__preview-top {
+  display: flex;
+  align-items: center;
+  gap: var(--black4245-space-2);
+  margin-bottom: var(--black4245-space-3);
+}
+.black4245-bb__preview-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--black4245-bb-accent);
+  flex: none;
+}
+.black4245-bb__preview-bar {
+  height: 8px;
+  flex: 1;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+}
+.black4245-bb--off .black4245-bb__preview-bar {
+  background: rgba(16, 24, 40, 0.1);
+}
+.black4245-bb__preview-card {
+  display: flex;
+  gap: var(--black4245-space-3);
+  align-items: stretch;
+  padding: var(--black4245-space-3);
+  border-radius: var(--black4245-radius-btn);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.black4245-bb--off .black4245-bb__preview-card {
+  background: #f3f4f6;
+  border-color: #e5e7eb;
+}
+.black4245-bb__preview-accent {
+  width: 4px;
+  border-radius: 999px;
+  background: var(--black4245-bb-accent);
+  flex: none;
+}
+.black4245-bb__preview-lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--black4245-space-2);
+  flex: 1;
+}
+.black4245-bb__preview-line {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.22);
+}
+.black4245-bb--off .black4245-bb__preview-line {
+  background: rgba(16, 24, 40, 0.18);
+}
+.black4245-bb__preview-line--w70 {
+  width: 70%;
+}
+.black4245-bb__preview-line--w45 {
+  width: 45%;
+}
+
+/* ── Status card + master switch ────────────────────────────────────────── */
+.black4245-bb__status-card {
+  padding: var(--black4245-space-4);
+}
+.black4245-bb__switch-row {
+  display: flex;
+  align-items: center;
+  gap: var(--black4245-space-3);
+}
+.black4245-bb__switch-copy {
+  flex: 1;
+  min-width: 0;
+}
+.black4245-bb__switch-title {
+  margin: 0;
+  font-size: var(--black4245-fs-body);
+  font-weight: var(--black4245-fw-heading);
+}
+.black4245-bb__site {
+  margin: 2px 0 0;
+  font-size: var(--black4245-fs-caption);
+  color: var(--black4245-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* iOS-style switch, built from a <button role="switch"> */
+.black4245-bb__switch {
+  position: relative;
+  flex: none;
+  width: 46px;
+  height: 26px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.black4245-bb__switch-track {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--black4245-radius-pill);
+  background: var(--black4245-border);
+  transition: background var(--black4245-transition);
+}
+.black4245-bb__switch-knob {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--black4245-shadow-sm);
+  transition: transform var(--black4245-transition);
+}
+.black4245-bb__switch[aria-checked='true'] .black4245-bb__switch-track {
+  background: var(--black4245-primary);
+}
+.black4245-bb__switch[aria-checked='true'] .black4245-bb__switch-knob {
+  transform: translateX(20px);
+}
+.black4245-bb__switch:focus-visible {
+  outline: none;
+}
+.black4245-bb__switch:focus-visible .black4245-bb__switch-track {
+  box-shadow: 0 0 0 2px var(--black4245-bg), 0 0 0 4px var(--black4245-primary);
+}
+
+.black4245-bb__enable {
+  margin-top: var(--black4245-space-3);
+}
+.black4245-bb__hint {
+  margin: var(--black4245-space-3) 0 0;
+  font-size: var(--black4245-fs-caption);
+  color: var(--black4245-warning);
+}
+
+/* ── Sections ───────────────────────────────────────────────────────────── */
+.black4245-bb__section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--black4245-space-2);
+}
+.black4245-bb__note {
+  margin: 0;
+  font-size: var(--black4245-fs-caption);
+  color: var(--black4245-text-secondary);
+}
+
+/* Segmented control (Curated / Smart invert) */
+.black4245-bb__seg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--black4245-border);
+  border: 1px solid var(--black4245-border);
+  border-radius: var(--black4245-radius-btn);
+  overflow: hidden;
+}
+.black4245-bb__seg-item {
+  padding: var(--black4245-space-3) var(--black4245-space-2);
+  border: none;
+  background: var(--black4245-bg);
+  color: var(--black4245-text);
+  font-family: inherit;
+  font-size: var(--black4245-fs-body);
+  font-weight: var(--black4245-fw-medium);
+  cursor: pointer;
+  transition: background var(--black4245-transition), color var(--black4245-transition);
+}
+.black4245-bb__seg-item:hover {
+  background: var(--black4245-primary-50);
+}
+.black4245-bb__seg-item[aria-checked='true'] {
+  background: var(--black4245-primary);
+  color: #fff;
+}
+.black4245-bb__seg-item:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 2px var(--black4245-primary-light);
+}
+
+/* Accent swatches */
+.black4245-bb__accents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--black4245-space-2);
+}
+.black4245-bb__swatch {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: var(--sw, var(--black4245-primary));
+  cursor: pointer;
+  transition: transform var(--black4245-transition), box-shadow var(--black4245-transition);
+}
+.black4245-bb__swatch:hover {
+  transform: scale(1.08);
+}
+.black4245-bb__swatch[aria-checked='true'] {
+  box-shadow: 0 0 0 2px var(--black4245-bg), 0 0 0 4px var(--black4245-primary);
+}
+.black4245-bb__swatch:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--black4245-bg), 0 0 0 4px var(--black4245-primary);
+}
+.black4245-bb__swatch--custom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--black4245-surface-2);
+  border: 1px dashed var(--black4245-border);
+  color: var(--black4245-pro);
+}
+.black4245-bb__swatch--custom:hover {
+  border-color: var(--black4245-pro);
+}
+.black4245-bb__swatch-lock {
+  display: inline-flex;
+}
+
+/* ── Upgrade + footer ───────────────────────────────────────────────────── */
+.black4245-bb__upgrade {
+  margin-top: var(--black4245-space-1);
+}
+.black4245-bb__footer {
+  gap: var(--black4245-space-3);
+}
+.black4245-bb__disclaimer {
+  flex: 1;
+  text-align: right;
+  color: var(--black4245-text-secondary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .black4245-bb *,
+  .black4245-bb *::before,
+  .black4245-bb *::after {
+    transition: none !important;
+  }
+}

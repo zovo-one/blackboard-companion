@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Mode sombre et simulateur de notes pour Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Vrai thème sombre pour Blackboard Learn (Original et Ultra) et calculateur de notes local. Sans affiliation avec Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Activer le mode sombre sur ce site"
+  },
+  "notEnabled": {
+    "message": "Non activé — cliquez pour réessayer"
+  },
+  "masterToggle": {
+    "message": "Mode sombre"
+  },
+  "themeModeCurated": {
+    "message": "Thème sélectionné"
+  },
+  "themeModeInvert": {
+    "message": "Inversion intelligente"
+  },
+  "openGradesPanel": {
+    "message": "Ouvrir le panneau des notes"
+  },
+  "currentGrade": {
+    "message": "Note actuelle"
+  },
+  "whatIfCta": {
+    "message": "Que me faut-il à l'examen final ?"
+  },
+  "upgradeCta": {
+    "message": "Améliorez sur"
+  },
+  "disclaimer": {
+    "message": "Sans affiliation, approbation ni parrainage de Blackboard Inc. ou Anthology Inc."
+  }
+}

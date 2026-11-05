@@ -1,0 +1,39 @@
+/* theme/invert.css — smart-invert fallback for institution custom skins the curated
+ * CSS doesn't cover. A whole-page filter flips light→dark, then a second inversion
+ * on media (and the extension's own panel) restores their true colours.
+ * Injected via chrome.runtime.getURL('theme/invert.css'); scoped under the flag. */
+
+html[data-black4245-bb] {
+  background: #ffffff !important;
+  filter: invert(1) hue-rotate(180deg) brightness(0.94) contrast(0.92) !important;
+}
+
+/* Re-invert content that must keep its real colours (photos, video, embeds). */
+html[data-black4245-bb] img,
+html[data-black4245-bb] video,
+html[data-black4245-bb] canvas,
+html[data-black4245-bb] picture,
+html[data-black4245-bb] svg image,
+html[data-black4245-bb] iframe,
+html[data-black4245-bb] embed,
+html[data-black4245-bb] object,
+html[data-black4245-bb] [style*='background-image'] {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* The grades panel host is a child of <html>, so the page-level invert would flip it
+ * too — cancel that so the panel renders in its intended dark palette. */
+html[data-black4245-bb] #black4245-bb-panel-host {
+  filter: invert(1) hue-rotate(180deg) !important;
+}
+
+/* ---- due-date urgency tints (colours pre-compensated for the page inversion) ---- */
+html[data-black4245-bb] .black4245-bb-due-overdue {
+  outline: 2px solid #0a8e8e !important; /* inverts back to red */
+}
+html[data-black4245-bb] .black4245-bb-due-soon {
+  outline: 2px solid #0440db !important; /* inverts back to amber */
+}
+html[data-black4245-bb] .black4245-bb-due-upcoming {
+  outline: 2px dashed #a5b4fc !important;
+}

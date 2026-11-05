@@ -1,0 +1,165 @@
+/* theme/dark-ultra.css — curated dark theme for Blackboard Learn ULTRA (React SPA).
+ * Injected via chrome.runtime.getURL('theme/dark-ultra.css'), scoped under
+ * html[data-black4245-bb]. Ultra is a component-driven SPA that leans on inline styles
+ * and CSS custom properties, so this sheet both (a) remaps Ultra's own design-system
+ * variables to a dark ramp and (b) applies the same surgical background/text/border
+ * overrides as the Original theme for anything the variables miss.
+ * --black4245-bb-accent is set on <html> by theme/apply.ts. */
+
+html[data-black4245-bb] {
+  --zbb-bg: #14161c;
+  --zbb-surface: #1b1e26;
+  --zbb-surface-2: #222633;
+  --zbb-text: #d7dbe4;
+  --zbb-text-dim: #99a1b0;
+  --zbb-border: #2b3140;
+  --zbb-accent: var(--black4245-bb-accent, #5a4bd1);
+  color-scheme: dark;
+
+  /* Remap Ultra / Bootstrap-ish design tokens where present (harmless if unused). */
+  --bb-color-base: var(--zbb-text) !important;
+  --bb-color-background: var(--zbb-bg) !important;
+  --white: var(--zbb-surface) !important;
+  --gray-lighter: var(--zbb-surface-2) !important;
+  --gray-light: var(--zbb-surface-2) !important;
+  --body-bg: var(--zbb-bg) !important;
+  --text-color: var(--zbb-text) !important;
+  background: var(--zbb-bg) !important;
+}
+
+html[data-black4245-bb] body,
+html[data-black4245-bb] #main-content-wrap,
+html[data-black4245-bb] .ultra-app,
+html[data-black4245-bb] [class*='base-app'] {
+  background: var(--zbb-bg) !important;
+  color: var(--zbb-text) !important;
+}
+
+/* Broad recolor (background/color/border only — never geometry). */
+html[data-black4245-bb] div,
+html[data-black4245-bb] section,
+html[data-black4245-bb] header,
+html[data-black4245-bb] footer,
+html[data-black4245-bb] nav,
+html[data-black4245-bb] aside,
+html[data-black4245-bb] main,
+html[data-black4245-bb] article,
+html[data-black4245-bb] ul,
+html[data-black4245-bb] ol,
+html[data-black4245-bb] li,
+html[data-black4245-bb] p,
+html[data-black4245-bb] span,
+html[data-black4245-bb] td,
+html[data-black4245-bb] th,
+html[data-black4245-bb] h1,
+html[data-black4245-bb] h2,
+html[data-black4245-bb] h3,
+html[data-black4245-bb] h4,
+html[data-black4245-bb] h5,
+html[data-black4245-bb] label {
+  background-color: transparent !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+
+/* Cards, panels, side nav, headers — the surfaces Ultra paints white. */
+html[data-black4245-bb] [class*='card' i],
+html[data-black4245-bb] [class*='panel' i],
+html[data-black4245-bb] [class*='surface' i],
+html[data-black4245-bb] [class*='drawer' i],
+html[data-black4245-bb] [class*='menu' i],
+html[data-black4245-bb] [class*='header' i],
+html[data-black4245-bb] [class*='sidebar' i],
+html[data-black4245-bb] [class*='navigation' i],
+html[data-black4245-bb] [role='dialog'],
+html[data-black4245-bb] [role='navigation'],
+html[data-black4245-bb] [role='banner'] {
+  background-color: var(--zbb-surface) !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+
+/* Grade cards / list items. */
+html[data-black4245-bb] [class*='grade' i],
+html[data-black4245-bb] [data-analytics-id='course-grades'],
+html[data-black4245-bb] [class*='list-item' i],
+html[data-black4245-bb] [class*='element-card' i] {
+  background-color: var(--zbb-surface) !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+
+/* Tables. */
+html[data-black4245-bb] table {
+  background-color: var(--zbb-surface) !important;
+  border-color: var(--zbb-border) !important;
+}
+html[data-black4245-bb] thead th {
+  background-color: var(--zbb-surface-2) !important;
+  color: var(--zbb-text) !important;
+}
+html[data-black4245-bb] tbody tr:nth-child(even) td {
+  background-color: color-mix(in srgb, var(--zbb-surface-2) 55%, transparent) !important;
+}
+
+/* Links + accent. */
+html[data-black4245-bb] a,
+html[data-black4245-bb] a:visited {
+  color: color-mix(in srgb, var(--zbb-accent) 78%, #ffffff) !important;
+}
+html[data-black4245-bb] a:hover {
+  color: #ffffff !important;
+}
+
+/* Inputs / selects / textareas. */
+html[data-black4245-bb] input:not([type='checkbox']):not([type='radio']),
+html[data-black4245-bb] select,
+html[data-black4245-bb] textarea {
+  background-color: var(--zbb-surface-2) !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+html[data-black4245-bb] input::placeholder,
+html[data-black4245-bb] textarea::placeholder {
+  color: var(--zbb-text-dim) !important;
+}
+
+/* Primary buttons → accent; neutral buttons → dark surface. */
+html[data-black4245-bb] button {
+  background-color: var(--zbb-surface-2) !important;
+  color: var(--zbb-text) !important;
+  border-color: var(--zbb-border) !important;
+}
+html[data-black4245-bb] button[class*='primary' i],
+html[data-black4245-bb] [class*='btn-primary' i] {
+  background-color: var(--zbb-accent) !important;
+  color: #ffffff !important;
+  border-color: var(--zbb-accent) !important;
+}
+
+/* Never recolor media; keep the extension's own panel host untouched. */
+html[data-black4245-bb] img,
+html[data-black4245-bb] video,
+html[data-black4245-bb] canvas,
+html[data-black4245-bb] iframe {
+  background-color: transparent !important;
+}
+html[data-black4245-bb] #black4245-bb-panel-host,
+html[data-black4245-bb] #black4245-bb-panel-host * {
+  background-color: initial !important;
+  color: initial !important;
+  border-color: initial !important;
+}
+
+/* ---- due-date urgency tints (added by dates/highlight.ts) ---- */
+html[data-black4245-bb] .black4245-bb-due-overdue {
+  box-shadow: inset 3px 0 0 #f87171 !important;
+  background-color: color-mix(in srgb, #f87171 12%, transparent) !important;
+}
+html[data-black4245-bb] .black4245-bb-due-soon {
+  box-shadow: inset 3px 0 0 #fbbf24 !important;
+  background-color: color-mix(in srgb, #fbbf24 12%, transparent) !important;
+}
+html[data-black4245-bb] .black4245-bb-due-upcoming {
+  box-shadow: inset 3px 0 0 var(--zbb-accent) !important;
+}

@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn के लिए डार्क मोड और ग्रेड व्हाट-इफ़",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn (Original और Ultra) के लिए असली डार्क थीम और एक लोकल ग्रेड व्हाट-इफ़ कैलकुलेटर। Blackboard से संबद्ध नहीं।",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "इस साइट पर डार्क मोड चालू करें"
+  },
+  "notEnabled": {
+    "message": "चालू नहीं — फिर से आज़माने के लिए क्लिक करें"
+  },
+  "masterToggle": {
+    "message": "डार्क मोड"
+  },
+  "themeModeCurated": {
+    "message": "चयनित थीम"
+  },
+  "themeModeInvert": {
+    "message": "स्मार्ट इनवर्ट"
+  },
+  "openGradesPanel": {
+    "message": "ग्रेड पैनल खोलें"
+  },
+  "currentGrade": {
+    "message": "वर्तमान ग्रेड"
+  },
+  "whatIfCta": {
+    "message": "फ़ाइनल में मुझे कितना चाहिए?"
+  },
+  "upgradeCta": {
+    "message": "पर अपग्रेड करें"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. या Anthology Inc. से संबद्ध, समर्थित या प्रायोजित नहीं।"
+  }
+}

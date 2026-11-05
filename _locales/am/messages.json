@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "ለ Blackboard Learn ጨለማ ሁነታና የውጤት ዋት-ኢፍ",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "ለ Blackboard Learn (Original እና Ultra) እውነተኛ ጨለማ ገጽታ እና የአካባቢ የውጤት ዋት-ኢፍ ማስያ። ከ Blackboard ጋር ግንኙነት የለውም።",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "በዚህ ጣቢያ ላይ ጨለማ ሁነታን አንቃ"
+  },
+  "notEnabled": {
+    "message": "አልነቃም — እንደገና ለመሞከር ጠቅ ያድርጉ"
+  },
+  "masterToggle": {
+    "message": "ጨለማ ሁነታ"
+  },
+  "themeModeCurated": {
+    "message": "የተመረጠ ገጽታ"
+  },
+  "themeModeInvert": {
+    "message": "ብልጥ መገልበጥ"
+  },
+  "openGradesPanel": {
+    "message": "የውጤት ፓነል ክፈት"
+  },
+  "currentGrade": {
+    "message": "የአሁኑ ውጤት"
+  },
+  "whatIfCta": {
+    "message": "በመጨረሻ ፈተና ላይ ምን ያስፈልገኛል?"
+  },
+  "upgradeCta": {
+    "message": "በ ላይ አሻሽል"
+  },
+  "disclaimer": {
+    "message": "ከ Blackboard Inc. ወይም Anthology Inc. ጋር ግንኙነት፣ ድጋፍ ወይም ስፖንሰርሺፕ የለውም።"
+  }
+}

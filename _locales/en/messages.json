@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Dark Mode & Grade What-If for Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Real dark theme for Blackboard Learn (Original & Ultra) plus a local grade what-if calculator. Not affiliated with Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Enable dark mode on this site"
+  },
+  "notEnabled": {
+    "message": "Not enabled — click to try again"
+  },
+  "masterToggle": {
+    "message": "Dark mode"
+  },
+  "themeModeCurated": {
+    "message": "Curated theme"
+  },
+  "themeModeInvert": {
+    "message": "Smart invert"
+  },
+  "openGradesPanel": {
+    "message": "Open grades panel"
+  },
+  "currentGrade": {
+    "message": "Current grade"
+  },
+  "whatIfCta": {
+    "message": "What do I need on the final?"
+  },
+  "upgradeCta": {
+    "message": "Upgrade"
+  },
+  "disclaimer": {
+    "message": "Not affiliated with, endorsed by, or sponsored by Blackboard Inc. or Anthology Inc."
+  }
+}

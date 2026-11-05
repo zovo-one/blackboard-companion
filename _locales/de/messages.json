@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Dark Mode & Noten-Was-wäre-wenn für Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Echtes dunkles Theme für Blackboard Learn (Original & Ultra) plus Noten-Was-wäre-wenn-Rechner. Nicht mit Blackboard verbunden.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Dark Mode auf dieser Seite aktivieren"
+  },
+  "notEnabled": {
+    "message": "Nicht aktiviert — zum erneuten Versuch klicken"
+  },
+  "masterToggle": {
+    "message": "Dark Mode"
+  },
+  "themeModeCurated": {
+    "message": "Kuratiertes Theme"
+  },
+  "themeModeInvert": {
+    "message": "Intelligente Invertierung"
+  },
+  "openGradesPanel": {
+    "message": "Notenbereich öffnen"
+  },
+  "currentGrade": {
+    "message": "Aktuelle Note"
+  },
+  "whatIfCta": {
+    "message": "Was brauche ich in der Abschlussprüfung?"
+  },
+  "upgradeCta": {
+    "message": "Upgrade auf"
+  },
+  "disclaimer": {
+    "message": "Nicht mit Blackboard Inc. oder Anthology Inc. verbunden, unterstützt oder gesponsert."
+  }
+}

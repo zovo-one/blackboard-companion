@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Mörkt läge & betyg-tänk-om för Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Äkta mörkt tema för Blackboard Learn (Original & Ultra) plus en lokal betyg-tänk-om-kalkylator. Inte anslutet till Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Aktivera mörkt läge på den här webbplatsen"
+  },
+  "notEnabled": {
+    "message": "Inte aktiverat — klicka för att försöka igen"
+  },
+  "masterToggle": {
+    "message": "Mörkt läge"
+  },
+  "themeModeCurated": {
+    "message": "Kurerat tema"
+  },
+  "themeModeInvert": {
+    "message": "Smart invertering"
+  },
+  "openGradesPanel": {
+    "message": "Öppna betygspanelen"
+  },
+  "currentGrade": {
+    "message": "Nuvarande betyg"
+  },
+  "whatIfCta": {
+    "message": "Vad behöver jag på slutprovet?"
+  },
+  "upgradeCta": {
+    "message": "Uppgradera på"
+  },
+  "disclaimer": {
+    "message": "Inte anslutet till, godkänt av eller sponsrat av Blackboard Inc. eller Anthology Inc."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn ಗಾಗಿ ಡಾರ್ಕ್ ಮೋಡ್ ಮತ್ತು ಗ್ರೇಡ್ ವಾಟ್-ಇಫ್",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn (Original, Ultra) ಗಾಗಿ ಡಾರ್ಕ್ ಥೀಮ್ ಹಾಗೂ ಸ್ಥಳೀಯ ಗ್ರೇಡ್ ವಾಟ್-ಇಫ್ ಕ್ಯಾಲ್ಕುಲೇಟರ್. Blackboard ಜೊತೆ ಸಂಬಂಧ ಹೊಂದಿಲ್ಲ.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "ಈ ಸೈಟ್‌ನಲ್ಲಿ ಡಾರ್ಕ್ ಮೋಡ್ ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "notEnabled": {
+    "message": "ಸಕ್ರಿಯವಾಗಿಲ್ಲ — ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
+  },
+  "masterToggle": {
+    "message": "ಡಾರ್ಕ್ ಮೋಡ್"
+  },
+  "themeModeCurated": {
+    "message": "ಆಯ್ದ ಥೀಮ್"
+  },
+  "themeModeInvert": {
+    "message": "ಸ್ಮಾರ್ಟ್ ಇನ್ವರ್ಟ್"
+  },
+  "openGradesPanel": {
+    "message": "ಗ್ರೇಡ್ ಪ್ಯಾನೆಲ್ ತೆರೆಯಿರಿ"
+  },
+  "currentGrade": {
+    "message": "ಪ್ರಸ್ತುತ ಗ್ರೇಡ್"
+  },
+  "whatIfCta": {
+    "message": "ಫೈನಲ್‌ನಲ್ಲಿ ನನಗೆ ಎಷ್ಟು ಬೇಕು?"
+  },
+  "upgradeCta": {
+    "message": "ನಲ್ಲಿ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. ಅಥವಾ Anthology Inc. ಜೊತೆ ಸಂಬಂಧ, ಅನುಮೋದನೆ ಅಥವಾ ಪ್ರಾಯೋಜಕತ್ವ ಹೊಂದಿಲ್ಲ."
+  }
+}

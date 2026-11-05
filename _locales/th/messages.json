@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "โหมดมืด & คำนวณเกรดสมมติสำหรับ Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "ธีมมืดของจริงสำหรับ Blackboard Learn (Original & Ultra) พร้อมเครื่องคำนวณเกรดสมมติในเครื่อง ไม่มีส่วนเกี่ยวข้องกับ Blackboard",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "เปิดใช้โหมดมืดบนไซต์นี้"
+  },
+  "notEnabled": {
+    "message": "ยังไม่เปิดใช้ — คลิกเพื่อลองอีกครั้ง"
+  },
+  "masterToggle": {
+    "message": "โหมดมืด"
+  },
+  "themeModeCurated": {
+    "message": "ธีมคัดสรร"
+  },
+  "themeModeInvert": {
+    "message": "กลับสีอัจฉริยะ"
+  },
+  "openGradesPanel": {
+    "message": "เปิดแผงเกรด"
+  },
+  "currentGrade": {
+    "message": "เกรดปัจจุบัน"
+  },
+  "whatIfCta": {
+    "message": "ต้องได้เท่าไรในสอบปลายภาค?"
+  },
+  "upgradeCta": {
+    "message": "อัปเกรดที่"
+  },
+  "disclaimer": {
+    "message": "ไม่มีส่วนเกี่ยวข้อง ไม่ได้รับการรับรองหรือสนับสนุนโดย Blackboard Inc. หรือ Anthology Inc."
+  }
+}

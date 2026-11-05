@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "מצב כהה ומחשבון \"מה אם\" לציונים ל-Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "ערכת נושא כהה אמיתית ל-Blackboard Learn (Original ו-Ultra) ומחשבון ציונים \"מה אם\" מקומי. לא משויך ל-Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "הפעלת מצב כהה באתר זה"
+  },
+  "notEnabled": {
+    "message": "לא הופעל — לחצו כדי לנסות שוב"
+  },
+  "masterToggle": {
+    "message": "מצב כהה"
+  },
+  "themeModeCurated": {
+    "message": "ערכת נושא נבחרת"
+  },
+  "themeModeInvert": {
+    "message": "היפוך חכם"
+  },
+  "openGradesPanel": {
+    "message": "פתיחת לוח הציונים"
+  },
+  "currentGrade": {
+    "message": "ציון נוכחי"
+  },
+  "whatIfCta": {
+    "message": "מה אני צריך במבחן הסופי?"
+  },
+  "upgradeCta": {
+    "message": "שדרוג ב"
+  },
+  "disclaimer": {
+    "message": "לא משויך, מאושר או ממומן על ידי Blackboard Inc. או Anthology Inc."
+  }
+}

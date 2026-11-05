@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Tume režiim & hinde-mis-siis Blackboard Learni jaoks",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Ehtne tume teema Blackboard Learnile (Original & Ultra) ja kohalik hinde-mis-siis kalkulaator. Pole seotud Blackboardiga.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Luba tume režiim sellel saidil"
+  },
+  "notEnabled": {
+    "message": "Pole lubatud — klõpsa uuesti proovimiseks"
+  },
+  "masterToggle": {
+    "message": "Tume režiim"
+  },
+  "themeModeCurated": {
+    "message": "Valitud teema"
+  },
+  "themeModeInvert": {
+    "message": "Nutikas inverteerimine"
+  },
+  "openGradesPanel": {
+    "message": "Ava hinnete paneel"
+  },
+  "currentGrade": {
+    "message": "Praegune hinne"
+  },
+  "whatIfCta": {
+    "message": "Mida on mul lõpueksamiks vaja?"
+  },
+  "upgradeCta": {
+    "message": "Uuenda saidil"
+  },
+  "disclaimer": {
+    "message": "Pole seotud, heaks kiidetud ega toetatud Blackboard Inc. või Anthology Inc. poolt."
+  }
+}

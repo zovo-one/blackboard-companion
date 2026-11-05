@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Tamsusis režimas ir pažymių skaičiuoklė Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Tikra tamsi tema Blackboard Learn (Original ir Ultra) bei vietinė pažymių „kas būtų, jeigu“ skaičiuoklė. Nesusijusi su Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Įjungti tamsųjį režimą šioje svetainėje"
+  },
+  "notEnabled": {
+    "message": "Neįjungta — spustelėkite, kad bandytumėte dar kartą"
+  },
+  "masterToggle": {
+    "message": "Tamsusis režimas"
+  },
+  "themeModeCurated": {
+    "message": "Parinkta tema"
+  },
+  "themeModeInvert": {
+    "message": "Išmanusis inversavimas"
+  },
+  "openGradesPanel": {
+    "message": "Atverti pažymių skydelį"
+  },
+  "currentGrade": {
+    "message": "Dabartinis pažymys"
+  },
+  "whatIfCta": {
+    "message": "Ko man reikia per baigiamąjį egzaminą?"
+  },
+  "upgradeCta": {
+    "message": "Atnaujinkite svetainėje"
+  },
+  "disclaimer": {
+    "message": "Nesusijęs su Blackboard Inc. ar Anthology Inc., jų nepatvirtintas ir neremiamas."
+  }
+}

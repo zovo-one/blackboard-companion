@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Σκοτεινό θέμα & βαθμοί \"τι θα γινόταν αν\" για Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Πραγματικό σκούρο θέμα για Blackboard Learn (Original & Ultra) και υπολογιστής βαθμών \"τι θα γινόταν αν\". Χωρίς σχέση με Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Ενεργοποίηση σκοτεινού θέματος σε αυτόν τον ιστότοπο"
+  },
+  "notEnabled": {
+    "message": "Δεν ενεργοποιήθηκε — κάντε κλικ για νέα προσπάθεια"
+  },
+  "masterToggle": {
+    "message": "Σκοτεινό θέμα"
+  },
+  "themeModeCurated": {
+    "message": "Επιμελημένο θέμα"
+  },
+  "themeModeInvert": {
+    "message": "Έξυπνη αντιστροφή"
+  },
+  "openGradesPanel": {
+    "message": "Άνοιγμα πίνακα βαθμών"
+  },
+  "currentGrade": {
+    "message": "Τρέχων βαθμός"
+  },
+  "whatIfCta": {
+    "message": "Τι χρειάζομαι στην τελική εξέταση;"
+  },
+  "upgradeCta": {
+    "message": "Αναβάθμιση στο"
+  },
+  "disclaimer": {
+    "message": "Χωρίς σύνδεση, έγκριση ή χορηγία από την Blackboard Inc. ή την Anthology Inc."
+  }
+}

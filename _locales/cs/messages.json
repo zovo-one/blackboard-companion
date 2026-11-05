@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Tmavý motiv a kalkulačka známek „co kdyby“ pro Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Skutečný tmavý motiv pro Blackboard Learn (Original a Ultra) a lokální kalkulačka známek. Není spojeno s Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Zapnout tmavý režim na tomto webu"
+  },
+  "notEnabled": {
+    "message": "Nezapnuto — klikněte a zkuste to znovu"
+  },
+  "masterToggle": {
+    "message": "Tmavý režim"
+  },
+  "themeModeCurated": {
+    "message": "Kurátorovaný motiv"
+  },
+  "themeModeInvert": {
+    "message": "Chytrá inverze"
+  },
+  "openGradesPanel": {
+    "message": "Otevřít panel známek"
+  },
+  "currentGrade": {
+    "message": "Aktuální známka"
+  },
+  "whatIfCta": {
+    "message": "Co potřebuji na závěrečné zkoušce?"
+  },
+  "upgradeCta": {
+    "message": "Upgradujte na"
+  },
+  "disclaimer": {
+    "message": "Není spojeno, schváleno ani sponzorováno společností Blackboard Inc. nebo Anthology Inc."
+  }
+}

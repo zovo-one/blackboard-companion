@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn-നായി ഡാർക്ക് മോഡും ഗ്രേഡ് വാട്ട്-ഇഫും",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn (Original, Ultra)-നായി യഥാർത്ഥ ഡാർക്ക് തീമും ലോക്കൽ ഗ്രേഡ് വാട്ട്-ഇഫ് കാൽക്കുലേറ്ററും. Blackboard-മായി ബന്ധമില്ല.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "ഈ സൈറ്റിൽ ഡാർക്ക് മോഡ് പ്രവർത്തനക്ഷമമാക്കുക"
+  },
+  "notEnabled": {
+    "message": "പ്രവർത്തനക്ഷമമല്ല — വീണ്ടും ശ്രമിക്കാൻ ക്ലിക്ക് ചെയ്യുക"
+  },
+  "masterToggle": {
+    "message": "ഡാർക്ക് മോഡ്"
+  },
+  "themeModeCurated": {
+    "message": "തിരഞ്ഞെടുത്ത തീം"
+  },
+  "themeModeInvert": {
+    "message": "സ്മാർട്ട് ഇൻവേർട്ട്"
+  },
+  "openGradesPanel": {
+    "message": "ഗ്രേഡ് പാനൽ തുറക്കുക"
+  },
+  "currentGrade": {
+    "message": "നിലവിലെ ഗ്രേഡ്"
+  },
+  "whatIfCta": {
+    "message": "ഫൈനലിൽ എനിക്ക് എത്ര വേണം?"
+  },
+  "upgradeCta": {
+    "message": "ൽ അപ്‌ഗ്രേഡ് ചെയ്യുക"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. അല്ലെങ്കിൽ Anthology Inc.-മായി ബന്ധമോ അംഗീകാരമോ സ്പോൺസർഷിപ്പോ ഇല്ല."
+  }
+}

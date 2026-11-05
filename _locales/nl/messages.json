@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Donkere modus & cijfer-wat-als voor Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Echt donker thema voor Blackboard Learn (Original & Ultra) plus een lokale cijfer-wat-als-calculator. Niet gelieerd aan Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Donkere modus op deze site inschakelen"
+  },
+  "notEnabled": {
+    "message": "Niet ingeschakeld — klik om opnieuw te proberen"
+  },
+  "masterToggle": {
+    "message": "Donkere modus"
+  },
+  "themeModeCurated": {
+    "message": "Samengesteld thema"
+  },
+  "themeModeInvert": {
+    "message": "Slim omkeren"
+  },
+  "openGradesPanel": {
+    "message": "Cijferpaneel openen"
+  },
+  "currentGrade": {
+    "message": "Huidig cijfer"
+  },
+  "whatIfCta": {
+    "message": "Wat heb ik nodig voor het eindexamen?"
+  },
+  "upgradeCta": {
+    "message": "Upgrade op"
+  },
+  "disclaimer": {
+    "message": "Niet gelieerd aan, goedgekeurd of gesponsord door Blackboard Inc. of Anthology Inc."
+  }
+}

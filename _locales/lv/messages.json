@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Tumšais režīms un atzīmju „kas būtu, ja” kalkulators Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Īsta tumšā tēma Blackboard Learn (Original un Ultra) un lokāls atzīmju „kas būtu, ja” kalkulators. Nav saistīts ar Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Iespējot tumšo režīmu šajā vietnē"
+  },
+  "notEnabled": {
+    "message": "Nav iespējots — noklikšķiniet, lai mēģinātu vēlreiz"
+  },
+  "masterToggle": {
+    "message": "Tumšais režīms"
+  },
+  "themeModeCurated": {
+    "message": "Atlasīta tēma"
+  },
+  "themeModeInvert": {
+    "message": "Vieda inversija"
+  },
+  "openGradesPanel": {
+    "message": "Atvērt atzīmju paneli"
+  },
+  "currentGrade": {
+    "message": "Pašreizējā atzīme"
+  },
+  "whatIfCta": {
+    "message": "Kas man vajadzīgs noslēguma eksāmenā?"
+  },
+  "upgradeCta": {
+    "message": "Jaunināt vietnē"
+  },
+  "disclaimer": {
+    "message": "Nav saistīts ar Blackboard Inc. vai Anthology Inc., nav to apstiprināts vai sponsorēts."
+  }
+}

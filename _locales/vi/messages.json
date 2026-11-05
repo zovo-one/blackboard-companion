@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Chế độ tối & tính điểm giả định cho Blackboard Learn",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Giao diện tối thực thụ cho Blackboard Learn (Original & Ultra) kèm bộ tính điểm giả định cục bộ. Không liên kết với Blackboard.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Bật chế độ tối trên trang này"
+  },
+  "notEnabled": {
+    "message": "Chưa bật — nhấp để thử lại"
+  },
+  "masterToggle": {
+    "message": "Chế độ tối"
+  },
+  "themeModeCurated": {
+    "message": "Giao diện tuyển chọn"
+  },
+  "themeModeInvert": {
+    "message": "Đảo màu thông minh"
+  },
+  "openGradesPanel": {
+    "message": "Mở bảng điểm"
+  },
+  "currentGrade": {
+    "message": "Điểm hiện tại"
+  },
+  "whatIfCta": {
+    "message": "Tôi cần bao nhiêu ở bài thi cuối kỳ?"
+  },
+  "upgradeCta": {
+    "message": "Nâng cấp tại"
+  },
+  "disclaimer": {
+    "message": "Không liên kết, xác nhận hay tài trợ bởi Blackboard Inc. hoặc Anthology Inc."
+  }
+}

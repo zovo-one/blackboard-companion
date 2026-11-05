@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Sötét mód és „mi lenne, ha” jegykalkulátor a Blackboard Learnhez",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Valódi sötét téma a Blackboard Learnhez (Original és Ultra) és helyi „mi lenne, ha” jegykalkulátor. Nem kapcsolódik a Blackboardhoz.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Sötét mód bekapcsolása ezen az oldalon"
+  },
+  "notEnabled": {
+    "message": "Nincs bekapcsolva — kattintson az újrapróbáláshoz"
+  },
+  "masterToggle": {
+    "message": "Sötét mód"
+  },
+  "themeModeCurated": {
+    "message": "Válogatott téma"
+  },
+  "themeModeInvert": {
+    "message": "Intelligens invertálás"
+  },
+  "openGradesPanel": {
+    "message": "Jegyek panel megnyitása"
+  },
+  "currentGrade": {
+    "message": "Jelenlegi jegy"
+  },
+  "whatIfCta": {
+    "message": "Mi kell a záróvizsgán?"
+  },
+  "upgradeCta": {
+    "message": "Frissítés a oldalon"
+  },
+  "disclaimer": {
+    "message": "Nem áll kapcsolatban a Blackboard Inc.-kel vagy Anthology Inc.-kel, és azok nem támogatják."
+  }
+}

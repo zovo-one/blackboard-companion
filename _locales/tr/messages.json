@@ -1,0 +1,40 @@
+{
+  "extName": {
+    "message": "Blackboard Learn için Karanlık Mod ve Not \"Ya Olsaydı\" Hesaplayıcı",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Blackboard Learn (Original ve Ultra) için gerçek karanlık tema ve yerel not \"ya olsaydı\" hesaplayıcı. Blackboard'la bağlantısızdır.",
+    "description": "Extension description, <=132 chars"
+  },
+  "enableOnSite": {
+    "message": "Bu sitede karanlık modu etkinleştir"
+  },
+  "notEnabled": {
+    "message": "Etkin değil — tekrar denemek için tıklayın"
+  },
+  "masterToggle": {
+    "message": "Karanlık mod"
+  },
+  "themeModeCurated": {
+    "message": "Seçilmiş tema"
+  },
+  "themeModeInvert": {
+    "message": "Akıllı ters çevirme"
+  },
+  "openGradesPanel": {
+    "message": "Not panelini aç"
+  },
+  "currentGrade": {
+    "message": "Güncel not"
+  },
+  "whatIfCta": {
+    "message": "Finalde kaç almam gerekiyor?"
+  },
+  "upgradeCta": {
+    "message": "'da yükselt"
+  },
+  "disclaimer": {
+    "message": "Blackboard Inc. veya Anthology Inc. ile bağlantılı, onaylı ya da sponsorlu değildir."
+  }
+}
